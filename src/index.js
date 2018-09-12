@@ -1,8 +1,12 @@
-import React from 'react';
-import './styles.css';
+import React, {Fragment} from 'react'
+// import './styles.css';
 
-const MyComponent = () => (
-    <h1>Hello from My Component</h1>
-);
+const MyComponent = () => {
+	return (
+		<Fragment>
+			<h1>NEW Hello from My Component</h1>
+		</Fragment>
+	)
+}
 
-export default MyComponent;
+export default MyComponent
