@@ -8,10 +8,9 @@ module.exports = {
     entry: path.join(__dirname, "examples/src/index.js"),
     output: {
         path: __dirname + '/dist',
-        filename: 'test_component_2.js',
+        filename: 'index.js',
         library: 'test_component_2',
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        libraryTarget: 'commonjs2'
     },
     module: {
         rules: [
