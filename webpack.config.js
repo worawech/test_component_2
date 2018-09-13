@@ -10,8 +10,7 @@ module.exports = {
         path: __dirname + '/dist',
         filename: 'test_component_2.js',
         library: 'test_component_2',
-        libraryTarget: 'umd',
-        globalObject: "typeof self !== 'undefined' ? self : this"
+        libraryTarget: 'commonjs2'
     },
     module: {
         rules: [
