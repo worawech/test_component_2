@@ -9,4 +9,4 @@ const test_component_2 = () => {
 	)
 }
 
-export default test_component_2
+module.exports = test_component_2
