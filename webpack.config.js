@@ -8,7 +8,7 @@ module.exports = {
     entry: path.join(__dirname, "src/index.js"),
     output: {
         path: __dirname + '/dist',
-        filename: 'index.js',
+        filename: 'test_component_2.js',
         library: 'test_component_2',
         libraryTarget: 'umd',
         globalObject: "typeof self !== 'undefined' ? self : this"
