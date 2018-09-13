@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-// import './styles.css';
+import './styles.css';
 
 const test_component_2 = () => {
 	return (
