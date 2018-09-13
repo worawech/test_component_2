@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react'
 // import './styles.css';
 
-const MyComponent = () => {
+const test_component_2 = () => {
 	return (
 		<Fragment>
 			<h1>NEW Hello from My Component</h1>
@@ -9,4 +9,4 @@ const MyComponent = () => {
 	)
 }
 
-export default MyComponent
+export default test_component_2
