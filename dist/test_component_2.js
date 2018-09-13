@@ -155,7 +155,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// import './styles.css';\n\nvar test_component_2 = function test_component_2() {\n\treturn _react2.default.createElement(\n\t\t_react.Fragment,\n\t\tnull,\n\t\t_react2.default.createElement(\n\t\t\t'h1',\n\t\t\tnull,\n\t\t\t'NEW Hello from My Component'\n\t\t)\n\t);\n};\n\nmodule.exports = test_component_2;\n\n//# sourceURL=webpack://test_component_2/./src/index.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// import './styles.css';\n\nvar test_component_2 = function test_component_2() {\n\treturn _react2.default.createElement(\n\t\t_react.Fragment,\n\t\tnull,\n\t\t_react2.default.createElement(\n\t\t\t'h1',\n\t\t\tnull,\n\t\t\t'NEW Hello from My Component'\n\t\t)\n\t);\n};\n\nexports.default = test_component_2;\n\n//# sourceURL=webpack://test_component_2/./src/index.js?");
 
 /***/ })
 
