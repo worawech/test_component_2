@@ -1,9 +1,9 @@
 import React from 'react';
 import { render} from 'react-dom';
-import test_component_2 from '../../src';
+import TestComponent from '../../src';
 
 const App = () => (
-    <test_component_2 />
+    <TestComponent />
 );
 
 render(<App />, document.getElementById("root"));
