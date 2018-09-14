@@ -4,7 +4,7 @@ import React, {Fragment} from 'react'
 const test_component_2 = () => {
 	return (
 		<Fragment>
-			<h1>NEW Hello from My Component</h1>
+			<h1>NEW 2 Hello from My Component TEXT</h1>
 		</Fragment>
 	)
 }
