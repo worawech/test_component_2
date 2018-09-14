@@ -7,8 +7,8 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 module.exports = {
     entry: path.join(__dirname, "src/index.js"),
     output: {
-        path: __dirname + '/dist',
-        // path: path.resolve(__dirname, 'dist'),
+        // path: __dirname + '/dist',
+        path: path.resolve(__dirname, 'dist'),
         filename: 'test_component_2.js',
         library: 'test_component_2',
         libraryTarget: 'commonjs2'
